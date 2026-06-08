@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Scouting Analytics Portfolio | Yuya Watanabe</title>
+  <meta name="description" content="A public-data, role-based football recruitment decision-support portfolio with an interactive Streamlit demo." />
+  <meta property="og:title" content="Role-Based Recruitment Decision Support" />
+  <meta property="og:description" content="Public-data scouting analytics portfolio: squad need hypothesis, longlist, shortlist and QA flags." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/app-preview.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="nav">
+    <div class="brand">Yuya Watanabe · Football Analytics</div>
+    <div class="nav-links">
+      <a href="#approach">Approach</a>
+      <a href="#demo">Live demo</a>
+      <a href="#methodology">Methodology</a>
+      <a href="#deploy">Deploy</a>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <div>
+        <span class="eyebrow">Public-data recruitment decision support</span>
+        <h1>Role-Based Scouting Analytics Portfolio</h1>
+        <p class="lead">An interactive football analytics demo that turns a squad scenario into recruitment hypotheses, role-based longlists, explainable shortlists and QA flags for further scout, video, medical and financial validation.</p>
+        <div class="cta-row">
+          <a class="button primary" data-demo-link href="#demo">Open live demo</a>
+          <a class="button" data-github-link href="#">View GitHub</a>
+          <a class="button" data-pdf-link href="#">Download brief</a>
+        </div>
+      </div>
+      <div class="preview-card">
+        <img src="assets/app-preview.svg" alt="Preview of recruitment analytics dashboard" />
+        <div class="metrics">
+          <div class="metric"><strong>4</strong><span>workflow stages</span></div>
+          <div class="metric"><strong>12</strong><span>shortlist slots</span></div>
+          <div class="metric"><strong>100%</strong><span>public-data demo</span></div>
+        </div>
+      </div>
+    </header>
+
+    <section id="approach">
+      <h2 class="section-title">What this project shows</h2>
+      <p class="section-lead">The aim is not to claim that public data can make final recruitment decisions. The aim is to show how public data can structure the first screening layer and make assumptions transparent before specialist human validation.</p>
+      <div class="grid-4">
+        <article class="card"><div class="step">01</div><h3>Squad need hypothesis</h3><p>Estimate where a squad may need reinforcement using depth, minutes, age profile and role benchmarks.</p></article>
+        <article class="card"><div class="step">02</div><h3>Role-based longlist</h3><p>Filter players by broad role family, age, minutes, value proxy and availability-related signals.</p></article>
+        <article class="card"><div class="step">03</div><h3>Configurable shortlist</h3><p>Rank candidates with transparent weights for role performance, value, reliability and club context.</p></article>
+        <article class="card"><div class="step">04</div><h3>QA and validation flags</h3><p>Highlight low-minutes, value, injury-history and data-coverage risks before final judgement.</p></article>
+      </div>
+    </section>
+
+    <section id="demo">
+      <h2 class="section-title">Interactive demo</h2>
+      <p class="section-lead">The Streamlit app is designed to be embedded here after deployment. It also has a direct link so recruiters or analysts can open it in a full browser tab.</p>
+      <div class="demo-wrap">
+        <div class="demo-toolbar"><span>Live demo frame</span><a class="button" data-demo-link href="#">Open full screen</a></div>
+        <div id="demo-placeholder" class="warning">Demo URL has not been configured yet. Deploy <code>app.py</code> to Streamlit Community Cloud or Hugging Face Spaces, then replace <code>YOUR-STREAMLIT-SUBDOMAIN</code> in <code>website/config.js</code>.</div>
+        <iframe id="demo-frame" title="Scouting analytics Streamlit demo" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <section id="methodology">
+      <h2 class="section-title">Methodology and boundaries</h2>
+      <p class="section-lead">This is deliberately framed as decision support, not automated recruitment advice. The strongest version combines transparent scoring, reproducible public data, sensitivity checks and human-in-the-loop validation.</p>
+      <div class="method-list">
+        <div class="method-row"><strong>Data</strong><span>Bundled demo CSV, optional StatsBomb Open Data mode, and uploadable player-level CSVs for future club-specific datasets.</span></div>
+        <div class="method-row"><strong>Role comparison</strong><span>Players are compared within broad role families rather than across all positions. Fine-grained tactical labels require event or tracking data.</span></div>
+        <div class="method-row"><strong>Scoring</strong><span>The app combines role performance, squad complementarity, value intelligence, reliability and league-risk penalty using editable weights.</span></div>
+        <div class="method-row"><strong>Validation</strong><span>Outputs are treated as scouting hypotheses and QA prompts. Video, medical, wage, contract and tactical validation remain outside the public-data MVP.</span></div>
+      </div>
+    </section>
+
+    <section id="deploy">
+      <h2 class="section-title">How this is intended to be shared</h2>
+      <div class="grid-3">
+        <article class="card"><h3>Website</h3><p>This static page works as the polished project landing page for your personal website.</p></article>
+        <article class="card"><h3>Live demo</h3><p>The Streamlit app can be deployed separately and embedded in the website using an iframe.</p></article>
+        <article class="card"><h3>GitHub</h3><p>The repository provides reproducibility, code, schema, methodology and exportable outputs.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">Built as a public-data football recruitment analytics portfolio. Not a final club recommendation system.</footer>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

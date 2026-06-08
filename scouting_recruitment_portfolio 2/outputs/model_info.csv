@@ -1,0 +1,2 @@
+used_model,r2,mae_log,note
+True,0.5145794189107875,0.3794131494698115,OOF GradientBoostingRegressor predicts log market value; residual>0 means public-value proxy appears lower than modelled value.

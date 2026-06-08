@@ -1,0 +1,49 @@
+project:
+  title: "Role-Based Recruitment Decision Support Using Public Football Data"
+  framing: "Public-data decision support demo, not an internal club recommendation."
+club:
+  name: "Celtic"
+  scenario: "January recruitment demonstration case"
+  assumed_systems: ["4-3-3", "3-4-2-1"]
+  recruitment_strategy: "value-aware contender"
+  budget_eur_max: 8000000
+  age_min: 18
+  age_max: 27
+  min_minutes: 900
+  exclude_current_club: true
+priority_roles:
+  RWB:
+    label: "Right-sided full-back / wing-back"
+    need_description: "Width, ball progression, chance creation, and reliable minutes."
+    weights:
+      role_performance: 0.35
+      squad_complementarity: 0.20
+      value_intelligence: 0.25
+      reliability: 0.15
+      league_risk: -0.05
+  CB:
+    label: "Centre-back / wide centre-back"
+    need_description: "Defensive floor, aerial security, ball progression, and back-three readiness."
+    weights:
+      role_performance: 0.40
+      squad_complementarity: 0.20
+      value_intelligence: 0.20
+      reliability: 0.15
+      league_risk: -0.05
+  ST:
+    label: "Forward / striker"
+    need_description: "Box threat, finishing volume, pressing contribution, and value upside."
+    weights:
+      role_performance: 0.40
+      squad_complementarity: 0.15
+      value_intelligence: 0.25
+      reliability: 0.15
+      league_risk: -0.05
+outputs:
+  top_n_per_role: 10
+  final_shortlist_n: 12
+limitations:
+  - "Public data cannot replace internal tactical, medical, wage, contract, and character information."
+  - "Transfermarkt-like market value should be treated as a public market proxy, not as the actual transfer fee."
+  - "Aggregate stats cannot reliably distinguish fine-grained spatial roles such as inverted full-back vs overlapping full-back."
+  - "Injury history is treated as an availability flag, not as injury prediction."

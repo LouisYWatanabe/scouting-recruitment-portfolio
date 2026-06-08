@@ -1,0 +1,4 @@
+role_family,depth,reliable_depth_900m,minutes_dependency_hhi,average_age,depth_risk,performance_gap,age_risk,availability_risk,gap_score,need_label
+ST,1,1,1.0,23.0,0.5,0.476,0.0,0.125,0.464,Medium
+RWB,1,1,1.0,26.0,0.5,0.368,0.0,0.08,0.436,Medium
+CB,1,1,1.0,22.0,0.5,0.114,0.0,0.253,0.411,Low

@@ -1,0 +1,45 @@
+<svg width="1100" height="760" viewBox="0 0 1100 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="760" rx="34" fill="#0E1720"/>
+  <rect x="28" y="28" width="1044" height="704" rx="26" fill="#111F2B" stroke="rgba(255,255,255,.16)"/>
+  <rect x="28" y="28" width="1044" height="72" rx="26" fill="#162B3A"/>
+  <circle cx="70" cy="64" r="10" fill="#ff6b6b"/><circle cx="104" cy="64" r="10" fill="#ffd36b"/><circle cx="138" cy="64" r="10" fill="#5fd7a7"/>
+  <text x="190" y="70" font-family="Inter, Arial" font-size="24" font-weight="700" fill="#EDF7FB">Role-Based Recruitment Decision Support</text>
+  <rect x="58" y="130" width="250" height="560" rx="22" fill="#0B141C" stroke="rgba(255,255,255,.10)"/>
+  <text x="86" y="174" font-family="Inter, Arial" font-size="22" font-weight="700" fill="#EDF7FB">Demo controls</text>
+  <rect x="86" y="205" width="190" height="38" rx="19" fill="#203747"/>
+  <text x="105" y="231" font-family="Inter, Arial" font-size="16" fill="#A7BCC7">Bundled website demo</text>
+  <rect x="86" y="275" width="170" height="18" rx="9" fill="#5FD7A7" opacity=".8"/>
+  <rect x="86" y="312" width="130" height="18" rx="9" fill="#78A8FF" opacity=".75"/>
+  <rect x="86" y="349" width="154" height="18" rx="9" fill="#78A8FF" opacity=".45"/>
+  <rect x="86" y="418" width="180" height="44" rx="22" fill="#5FD7A7"/>
+  <text x="120" y="447" font-family="Inter, Arial" font-size="18" font-weight="800" fill="#071016">Run demo</text>
+  <rect x="338" y="130" width="704" height="110" rx="22" fill="#0B141C" stroke="rgba(255,255,255,.10)"/>
+  <text x="370" y="171" font-family="Inter, Arial" font-size="17" fill="#A7BCC7">Loaded players</text>
+  <text x="370" y="209" font-family="Inter, Arial" font-size="34" font-weight="800" fill="#EDF7FB">480</text>
+  <text x="555" y="171" font-family="Inter, Arial" font-size="17" fill="#A7BCC7">Longlist</text>
+  <text x="555" y="209" font-family="Inter, Arial" font-size="34" font-weight="800" fill="#EDF7FB">86</text>
+  <text x="725" y="171" font-family="Inter, Arial" font-size="17" fill="#A7BCC7">Shortlist</text>
+  <text x="725" y="209" font-family="Inter, Arial" font-size="34" font-weight="800" fill="#EDF7FB">12</text>
+  <text x="905" y="171" font-family="Inter, Arial" font-size="17" fill="#A7BCC7">Roles</text>
+  <text x="905" y="209" font-family="Inter, Arial" font-size="34" font-weight="800" fill="#EDF7FB">3</text>
+  <rect x="338" y="270" width="342" height="420" rx="22" fill="#0B141C" stroke="rgba(255,255,255,.10)"/>
+  <text x="370" y="313" font-family="Inter, Arial" font-size="24" font-weight="800" fill="#EDF7FB">Need board</text>
+  <rect x="370" y="350" width="250" height="28" rx="14" fill="#5FD7A7" opacity=".85"/>
+  <rect x="370" y="405" width="204" height="28" rx="14" fill="#78A8FF" opacity=".75"/>
+  <rect x="370" y="460" width="180" height="28" rx="14" fill="#FFD36B" opacity=".80"/>
+  <rect x="370" y="515" width="120" height="28" rx="14" fill="#A7BCC7" opacity=".55"/>
+  <text x="632" y="371" font-family="Inter, Arial" font-size="15" fill="#A7BCC7">ST</text>
+  <text x="585" y="426" font-family="Inter, Arial" font-size="15" fill="#A7BCC7">RWB</text>
+  <text x="562" y="481" font-family="Inter, Arial" font-size="15" fill="#A7BCC7">CB</text>
+  <rect x="710" y="270" width="332" height="420" rx="22" fill="#0B141C" stroke="rgba(255,255,255,.10)"/>
+  <text x="742" y="313" font-family="Inter, Arial" font-size="24" font-weight="800" fill="#EDF7FB">Player QA cards</text>
+  <rect x="742" y="350" width="268" height="76" rx="16" fill="#132634"/>
+  <text x="765" y="383" font-family="Inter, Arial" font-size="18" font-weight="800" fill="#EDF7FB">Candidate A</text>
+  <text x="765" y="410" font-family="Inter, Arial" font-size="14" fill="#5FD7A7">Green: role fit + value</text>
+  <rect x="742" y="448" width="268" height="76" rx="16" fill="#132634"/>
+  <text x="765" y="481" font-family="Inter, Arial" font-size="18" font-weight="800" fill="#EDF7FB">Candidate B</text>
+  <text x="765" y="508" font-family="Inter, Arial" font-size="14" fill="#FFD36B">Amber: low minutes</text>
+  <rect x="742" y="546" width="268" height="76" rx="16" fill="#132634"/>
+  <text x="765" y="579" font-family="Inter, Arial" font-size="18" font-weight="800" fill="#EDF7FB">Candidate C</text>
+  <text x="765" y="606" font-family="Inter, Arial" font-size="14" fill="#FFD36B">Amber: step-up risk</text>
+</svg>
